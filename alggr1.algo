@@ -16,7 +16,7 @@ BEGIN
         vol=vol+1
     END_IF
  UNTIL (sent==".")
- write(k)
+ write(k-1)
  write(vol)
  write(wr)
 END
